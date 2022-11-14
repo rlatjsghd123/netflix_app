@@ -32,7 +32,6 @@ function Row({title,id,fetchUrl,LargeRow}) {
     const handkeClick = (movie) =>{
         setModalOpen(true);
         setMovieSelected(movie);
-        console.log(movieSelected)
     }
   return (
     <section className='row'>

@@ -4,6 +4,8 @@
     height: 448px;
 
 .banner_contents{
+    z-index: 1;
+    position: relative;
     margin-left: 40px;
     padding-top: 140px;
     height: 190px;

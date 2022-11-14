@@ -6,6 +6,9 @@ import MainPage from './routes/MainPage';
 import DetailPage from './routes/DetailPage';
 import SearchPage from './routes/SearchPage';
 import './styles/App.scss'
+import LoginPage from './routes/LoginPage';
+import SignUp from './routes/SignUp';
+import Info from './routes/Info';
 
 const Layout = () =>{
   return(
@@ -27,7 +30,10 @@ function App() {
           <Route path='detail/:movieId' element={<DetailPage />} />
           <Route path='search' element={<SearchPage />} />
         </Route>
-      </Routes>
+        <Route path='/login' element={<LoginPage />} />
+        <Route path='/signUp' element={<SignUp />} />
+        <Route path='/Info' element={<Info />} />
+       </Routes>
     </div>
   );
 }

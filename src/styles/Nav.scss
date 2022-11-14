@@ -1,5 +1,5 @@
 .nav{
-    z-index: 1;
+    z-index: 2;
     position: fixed;
     top: 0;
     left: 0;
@@ -25,11 +25,25 @@
         width: 80px;
         object-fit: contain;
     }
-    .nav_avater{
+
+        .nav_avater{
+            position: fixed;
+            right: 40px;
+            width: 30px;
+            object-fit: contain;
+            cursor: pointer;
+        }
+
+
+    .nav_login{
         position: fixed;
         right: 40px;
-        width: 30px;
-        object-fit: contain;
+        border: none;
+        background-color: #e50914;
+        color: #fff;
+        padding: 5px 15px;
+        border-radius: 3px;
+        cursor: pointer;
     }
 }
 .nav_black{

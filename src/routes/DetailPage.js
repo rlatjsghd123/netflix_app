@@ -2,6 +2,7 @@ import axios from '../api/axios';
 import React, { useEffect, useState } from 'react'
 import { useParams } from 'react-router-dom'
 
+
 function DetailPage() {
     const [movie,setMovie] = useState({});
     let {movieId} = useParams();
